@@ -1,0 +1,15 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "Parcel Build Project",
+  "scripts": {
+    "dev": "parcel ./src/pages/*.html",
+    "build": "parcel build ./src/pages/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
