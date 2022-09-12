@@ -7,3 +7,16 @@ if (module.hot) {
 }
 
 console.log("Toggle this comment to check HMR");
+
+// Transpiling
+
+const obj = {
+  a: "Apple",
+  b: "Banana",
+  c: {
+    food: "Cheesecake",
+    car: "Chrysler",
+  },
+};
+
+console.log("Transpilation on check-", obj?.c?.car, obj?.d?.pet);
